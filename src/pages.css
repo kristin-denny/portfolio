@@ -1,0 +1,182 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #AF1B3F;
+  background-color: #30343F;
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* nav{
+  background-color: #F7E1D7;
+  
+  
+} */
+a {
+  font-weight: 500;
+  color: #EDAFB8;
+  text-decoration: inherit;
+
+}
+
+a:hover {
+  color: #AF1B3F;
+}
+
+a:active{
+  color: #AF1B3F;
+}
+
+
+.bio img {
+  border-radius: 30px;
+  width: 150px;
+  padding: 10pt;
+
+}
+
+.bio {
+
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #F7E1D7;
+  padding: 15px;
+  /* margin: auto; */
+
+}
+
+h2 {
+  margin-bottom: 2px;
+}
+
+p {
+  font-size: small;
+  justify-content: center;
+  margin-top: 2px;
+
+
+}
+
+.bioParagraph {
+  text-wrap: wrap;
+  width: 40%;
+}
+
+.portfolio {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolioLinks a {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.portfolio img {
+  border-radius: 30px;
+  width: 200px;
+  padding: 10pt;
+
+}
+
+.contactForm {
+  background-color: #F7E1D7;
+  padding: 10px;
+  justify-content: center;
+}
+
+button {
+  background-color: #AF1B3F;
+  border-radius: 5px;
+  border: #F7E1D7;
+}
+
+.resume{
+  background-color: #F7E1D7;
+  padding: 5px 15px 15px 15px;
+}
+.resume a{
+  color: #30343F;
+}
+.projects{
+  background-color: #F7E1D7;
+}
+.projects a{
+  color: #30343F;
+}
+/* form{
+  background-color: aqua;
+  width: 500px;
+} */
+
+/* .about-author{
+    background-color: blue;
+    width: 500px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+.headshot{
+    background-color: blueviolet;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+} */
+/* .headshot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+
+
+
+
+/* 
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px){
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
+  } */
