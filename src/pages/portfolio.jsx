@@ -13,6 +13,7 @@ export default function Portfolio() {
     return (
         <div className="projects">
             <h1>Portfolio</h1>
+            <p>These projects are deployed on Render, as such it may take a second or two to load.</p>
             <div className="portfolio">
                 <img src={candidateSearch} alt="gitHubIcon" />
                 <div className="portfolioLinks">
