@@ -20,7 +20,7 @@ Installation is not necessary, simply follow the url provided below.
 ## Usage
 
 To use, go to:https://portfolio-cr6x.onrender.com
-To use, go to: https://portfolio-cr6x.onrender.com
+
 
 
 
