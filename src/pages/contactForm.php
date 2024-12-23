@@ -17,5 +17,5 @@ if($email != NULL) {
 }
 
 
-header("Location:last.html");
+header("Location:index.html");
 ?>
