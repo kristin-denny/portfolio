@@ -59,7 +59,7 @@ function Contact() {
     return (
         <div className='contactForm'>
             <h1 id="formHeader">Please reach out!</h1>
-            <form onBlur={handleBlur} onFocus={handleFocus} id="ContactForm">
+            <form onBlur={handleBlur} onFocus={handleFocus} id="ContactForm" method="post" action="contact.php">
                 <label htmlFor='name'>name</label><br />
                 <input type="text" id="name" name="name" onChange={(e) => setFormData({ ...formData, name: e.target.value })} /><br />
                 <label htmlFor='email'>email</label><br />
