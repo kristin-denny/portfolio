@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #AF1B3F;
-  background-color: #30343F;
+  color: #03012c;
+  background-color: #F2D5F8;
 
   max-width: 1280px;
   margin: 0 auto;
@@ -25,17 +25,17 @@
 } */
 a {
   font-weight: 500;
-  color: #EDAFB8;
+  color: #190E4F;
   text-decoration: inherit;
 
 }
 
 a:hover {
-  color: #AF1B3F;
+  color: #B33C86;
 }
 
 a:active{
-  color: #AF1B3F;
+  color: #190E4F;
 }
 
 
@@ -53,7 +53,7 @@ a:active{
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #F7E1D7;
+  /* background-color: #F7E1D7; */
   padding: 15px;
   /* margin: auto; */
 
@@ -67,65 +67,70 @@ p {
   font-size: small;
   justify-content: center;
   margin-top: 2px;
+  text-wrap: wrap;
 
 
 }
 
 .bioParagraph {
   text-wrap: wrap;
-  width: 40%;
+  width: 45%;
 }
 
 .portfolio {
-  width: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.portfolioLinks a {
-  width: auto;
+  /* width: auto; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 
-
 }
+.portfolioLinks{
+  margin: 10px;
+}
+/* .portfolioLinks a {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+} */
 
 .portfolio img {
   border-radius: 30px;
-  width: 200px;
+  width: 350px;
   padding: 10pt;
 
 }
 
-.contactForm {
+/* .contactForm {
   background-color: #F7E1D7;
   padding: 10px;
   justify-content: center;
 }
 
 button {
-  background-color: #AF1B3F;
+  background-color: #03012c;
   border-radius: 5px;
   border: #F7E1D7;
-}
+} */
 
 .resume{
-  background-color: #F7E1D7;
+  background-color: #E6C0E9;
   padding: 5px 15px 15px 15px;
+  margin: 21.44px 0px;
 }
-.resume a{
-  color: #30343F;
-}
+
 .projects{
-  background-color: #F7E1D7;
+  background-color: #E6C0E9;
 }
 .projects a{
-  color: #30343F;
+  color: #03012c;
 }
+
+
 /* form{
   background-color: aqua;
   width: 500px;
@@ -150,12 +155,10 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+*/
 .bio{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
+  background-color: #E6C0E9;
+} 
 
 
 

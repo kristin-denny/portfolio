@@ -2,6 +2,7 @@
 //if they click off without filling out a field then an error message pops up that they need to finish filling out form
 import { useState } from 'react';
 import "../pages.css";
+// import nodemailer from 'nodemailer';
 
 function Contact() {
 
@@ -14,6 +15,32 @@ function Contact() {
     });
 
 
+    // const sendEmail = () => {
+    //     const transporter = nodemailer.createTransport({
+    //         host: 'live.smtp.mailtrap.io',
+    //         port: 587,
+    //         secure: false, // use SSL
+    //         auth: {
+    //             user: '1a2b3c4d5e6f7g',
+    //             pass: '1a2b3c4d5e6f7g',
+    //         }
+    //     });
+
+    //     const mailOptions = {
+    //         from: formData.email,
+    //         to: 'kristingdenny@gmail.com',
+    //         subject: `message from ${formData.name}`,
+    //         text: formData.message
+    //     };
+
+    //     transporter.sendMail(mailOptions, function (error, info) {
+    //         if (error) {
+    //             console.log('Error: ', error);
+    //         } else {
+    //             console.log('Email sent: ' + info.response);
+    //         }
+    //     });
+    // }
 
     const isEmailValid = (email) => {
         const validEmailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -52,13 +79,14 @@ function Contact() {
             alert("Please enter a valid email")
         }
         handleFocus();
+        // sendEmail();
     }
 
 
     return (
         <div className='contactForm'>
             <h1 id="formHeader">Please reach out!</h1>
-            <form onBlur={handleBlur} onFocus={handleFocus} id="ContactForm" method="post" action="contacForm.php">
+            <form onBlur={handleBlur} onFocus={handleFocus} id="ContactForm">
                 <label htmlFor='name'>name</label><br />
                 <input type="text" id="name" name="name" onChange={(e) => setFormData({ ...formData, name: e.target.value })} /><br />
                 <label htmlFor='email'>email</label><br />
